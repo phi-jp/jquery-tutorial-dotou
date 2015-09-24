@@ -7,7 +7,9 @@
       { "title": "class 指定で要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
       { "title": "html() メソッドで中身を変更してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
       { "title": "css() メソッドでスタイルを変更してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
-      { "title": "クリックしたときのイベントを登録してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" }
+      { "title": "クリックしたときのイベントを登録してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
+      { "title": "チェーンメソッドを使ってみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
+      { "title": "dummy", "url": "dummy" }
     ]
   },
   {

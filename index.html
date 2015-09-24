@@ -43,13 +43,13 @@
     ul
       li(each='{list}')
         span {title}
-        ul.samples
+        ol.samples
           li(each='{samples}')
             a(href='{url}', target='preview') {title}
 
     style.
-      .samples {
-        margin-left: 10px;
+      ol.samples li {
+        list-style-type: decimal;
       }
 
     script.
