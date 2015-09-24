@@ -11,7 +11,7 @@
     ]
   },
   {
-    "title": "Selector を使いこなそう",
+    "title": "要素(Selector) を使いこなそう",
     "samples": [
       { "title": "最初の要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
       { "title": "最後の要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
@@ -20,16 +20,56 @@
       { "title": "奇数の要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" }
     ]
   },
+
   {
-    "title": "中級編",
+    "title": "スタイル(CSS) を使いこなそう",
     "samples": [
-      { "title": "jQuery でほげほげ", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
-      { "title": "jQuery でほげほげ", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
+      { "title": "jQuery でほげほげ", "url": "aaaaaaaaaaaaaaaaaaaaaa" }
+    ]
+  },
+
+  {
+    "title": "イベント(Event) を使いこなそう",
+    "samples": [
+      { "title": "jQuery でほげほげ", "url": "aaaaaaaaaaaaaaaaaaaaaa" }
+    ]
+  },
+
+  {
+    "title": "アニメーション(Animation) を使いこなそう",
+    "samples": [
+      { "title": "jQuery でほげほげ", "url": "aaaaaaaaaaaaaaaaaaaaaa" }
+    ]
+  },
+
+  {
+    "title": "非同期通信(Ajax) を使いこなそう",
+    "samples": [
+      { "title": "jQuery でほげほげ", "url": "aaaaaaaaaaaaaaaaaaaaaa" }
+    ]
+  },
+
+  {
+    "title": "属性(Attribute) を使いこなそう",
+    "samples": [
       { "title": "jQuery でほげほげ", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
       { "title": "jQuery でほげほげ", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
       { "title": "jQuery でほげほげ", "url": "aaaaaaaaaaaaaaaaaaaaaa" }
     ]
   },
+  {
+    "title": "操作(Traversing) を使いこなそう",
+    "samples": [
+      { "title": "jQuery でほげほげ", "url": "aaaaaaaaaaaaaaaaaaaaaa" }
+    ]
+  },
+  {
+    "title": "制御(Manipulation) を使いこなそう",
+    "samples": [
+      { "title": "jQuery でほげほげ", "url": "aaaaaaaaaaaaaaaaaaaaaa" }
+    ]
+  },
+
   {
     "title": "その他",
     "samples": [
