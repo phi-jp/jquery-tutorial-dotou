@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <title>jQuery</title>
+
+    <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.css' />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.js'></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jade/1.3.1/jade.min.js"></script>
+
+    <script src="http://rawgit.com/phi-jp/riot/build/dist/riot/riot+compiler.js"></script>
+  </head>
+  <body>
+    <app></app>
+  </body>
+</html>
+
+
+<script type='riot/tag' template='jade'>
+  app
+    div.row
+      div.col.s3
+        side
+      div.col.s9
+        preview
+    script(type='text/javascript').
+      this.change = function(e) {
+        console.log(e.target.checked)
+      };
+</script>
+
+<script type='riot/tag' template='jade'>
+  side
+    h2 side
+    ul
+      li(each='{list}')
+        span {title}
+        ul.samples
+          li(each='{samples}')
+            a(href='{url}', target='preview') {title}
+
+    style.
+      .samples {
+        margin-left: 10px;
+      }
+
+    script.
+      var self = this;
+      $.getJSON('samples.json').done(function(data) {
+        self.list = data;
+        self.update();
+      });
+</script>
+
+<script type='riot/tag' template='jade'>
+  preview
+    h2 preview
+    div
+      iframe#preview(name='preview')
+
+    style.
+      #preview {
+        border: none;
+        box-shadow: 0px 0px 4px #aaa;
+        width: 100%;
+        height: 600px;
+      }
+</script>
+
+<script>
+  riot.mount('*', {
+  })
+</script>
+
+
+
