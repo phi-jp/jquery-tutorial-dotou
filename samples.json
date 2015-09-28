@@ -4,27 +4,29 @@
     "samples": [
       { "title": "cdn から jQuery を読み込んでみよう", "url": "http://goo.gl/KAtwrh" },
       { "title": "id 指定で要素を取得してみよう", "url": "http://goo.gl/SHskDZ" },
-      { "title": "class 指定で要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
-      { "title": "html() メソッドで中身を変更してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
-      { "title": "css() メソッドでスタイルを変更してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
-      { "title": "クリックしたときのイベントを登録してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
-      { "title": "チェーンメソッドを使ってみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
-      { "title": "dummy", "url": "dummy" }
+      { "title": "class 指定で要素を取得してみよう", "url": "http://goo.gl/WA40D1" },
+      { "title": "html() メソッドで中身を変更してみよう", "url": "http://goo.gl/XJPWfG" },
+      { "title": "css() メソッドでスタイルを変更してみよう", "url": "http://goo.gl/fvN5N7" },
+      { "title": "append()メソッドでhtmlを追加してみよう", "url": "http://goo.gl/JUR3yg" },
+      { "title": "prepend()メソッドでhtmlを追加してみよう", "url": "http://goo.gl/ekVgsy" },
+      { "title": "クリックしたときのイベントを登録してみよう", "url": "http://goo.gl/eqwBMw" },
+      { "title": "チェーンメソッドを使ってみよう", "url": "http://goo.gl/Fh9Wrk" },
+
     ]
   },
   {
     "title": "要素(Selector) を使いこなそう",
     "samples": [
-      { "title": "すべての要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
+      { "title": "すべての要素を取得してみよう(ユニバーサルセレクタ)", "url": "http://goo.gl/vA0Fqj" },
       { "title": "子孫要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
-      { "title": "直下の要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
+      { "title": "直下の要素を取得してみよう(「>」)", "url": "http://goo.gl/NhAKQX" },
       { "title": "隣接する要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
       { "title": "属性セレクタで要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
-      { "title": "最初の要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
-      { "title": "最後の要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
-      { "title": "特定の文字列を含む要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
-      { "title": "偶数の要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
-      { "title": "奇数の要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
+      { "title": "最初の要素を取得してみよう(first-child)", "url": "http://goo.gl/jVwcbZ" },
+      { "title": "最後の要素を取得してみよう(last-child)", "url": "http://goo.gl/c7eWS5" },
+      { "title": "特定の文字列を含む要素を取得してみよう(contains)", "url": "http://goo.gl/qXFZ99" },
+      { "title": "偶数の要素を取得してみよう（even）", "url": "http://goo.gl/Ky96Wx" },
+      { "title": "奇数の要素を取得してみよう(odd)", "url": "http://goo.gl/uLEP7L" },
       { "title": "グループで要素を取得してみよう", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
       { "title": "dummy", "url": "dummy" }
     ]
@@ -49,7 +51,11 @@
   {
     "title": "アニメーション(Animation) を使いこなそう",
     "samples": [
-      { "title": "jQuery でほげほげ", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
+      { "title": "ぬるっと表示（hide()とshow()）", "url": "http://goo.gl/4mfuLd" },
+      {"title":"フワッと表示（フェードイン　フェードアウト）","url":"http://goo.gl/5NsevQ"},
+      { "title": "dummy", "url": "dummy" },
+      { "title": "dummy", "url": "dummy" },
+      { "title": "dummy", "url": "dummy" },
       { "title": "dummy", "url": "dummy" }
     ]
   },
