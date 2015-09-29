@@ -7,8 +7,7 @@
       { "title": "class 指定で要素を取得してみよう", "url": "http://goo.gl/WA40D1" },
       { "title": "html() メソッドで中身を変更してみよう", "url": "http://goo.gl/XJPWfG" },
       { "title": "css() メソッドでスタイルを変更してみよう", "url": "http://goo.gl/fvN5N7" },
-      { "title": "append()メソッドでhtmlを追加してみよう", "url": "http://goo.gl/JUR3yg" },
-      { "title": "prepend()メソッドでhtmlを追加してみよう", "url": "http://goo.gl/ekVgsy" },
+
       { "title": "クリックしたときのイベントを登録してみよう", "url": "http://goo.gl/eqwBMw" },
       { "title": "チェーンメソッドを使ってみよう", "url": "http://goo.gl/Fh9Wrk" },
 
@@ -84,7 +83,12 @@
   {
     "title": "制御(Manipulation) を使いこなそう",
     "samples": [
-      { "title": "jQuery でほげほげ", "url": "aaaaaaaaaaaaaaaaaaaaaa" }
+      { "title": "append()メソッドでhtmlを追加してみよう", "url": "http://goo.gl/JUR3yg" },
+      { "title": "prepend()メソッドでhtmlを追加してみよう", "url": "http://goo.gl/ekVgsy" },
+      {"title": "wrap(html)メソッドでhtmlを囲んでみよう","url": "http://goo.gl/ZG5ebw"},
+      {"title": "wrapAll(html)メソッドでhtmlを囲んでみよう","url": "http://goo.gl/sszOMt"},
+      {"title": "clone()でコピーを作成しよう","url": "http://goo.gl/sszOMt"}
+
     ]
   },
 
