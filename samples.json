@@ -106,10 +106,10 @@
       { "title": "次の兄弟要素以降すべてを取得しよう（.nextAll()）", "url": "http://goo.gl/rrTKXo" },
       { "title": "一つ前の兄弟要素を取得しよう（.prev()）", "url": "http://goo.gl/Q0ULyn" },
       { "title": "前の兄弟要素全部を取得しよう（.prevAll()）", "url": "http://goo.gl/3eowOj" },
-      { "title": "（.sblings()）", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
-      { "title": "（.is()）", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
+      { "title": "指定要素以外の兄弟要素を取得しよう（.sblings()）", "url": "http://goo.gl/yORWt8" },
+      { "title": "要素内で特定のデータがあるかないかtrue or false （.is()）", "url": "http://goo.gl/qH7T4A" },
       { "title": "複数の要素から指定した属性だけを取得しよう（.has()）", "url": "http://goo.gl/jl0eMP" },
-      { "title": "(.each())", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
+      { "title": "それぞれの要素に対して関数を実行しよう(.each())", "url": "http://goo.gl/lJlp1g" },
       { "title": "n番目の要素を取得してみよう（eq(n)）", "url": "aaaaaaaaaaaaaaaaaaaaaa" }
     ]
   },
