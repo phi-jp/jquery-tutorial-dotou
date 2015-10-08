@@ -97,27 +97,42 @@
   {
     "title": "操作(Traversing) を使いこなそう",
     "samples": [
-      { "title": "jQuery でほげほげ", "url": "aaaaaaaaaaaaaaaaaaaaaa" }
+      { "title": "n番目の要素を取得してみよう（eq(n-1)）", "url": "http://goo.gl/wXitI7" },
+      { "title": "子要素を取得してみよう(1)（.child()）", "url": "http://goo.gl/q6ffyL" },
+      { "title": "子要素を取得してみよう(2)（.find()）", "url": "http://goo.gl/NM3aoW" },
+      { "title": "1階層上の親要素の取得をしよう（.parent()）", "url": "http://goo.gl/xDzFbT" },
+      { "title": "2階層上の親要素の取得をしよう（.parents()）", "url": "http://goo.gl/I45SFe" },
+      { "title": "次の兄弟要素を取得しよう（.next()）", "url": "http://goo.gl/Xezy4A" },
+      { "title": "次の兄弟要素以降すべてを取得しよう（.nextAll()）", "url": "http://goo.gl/rrTKXo" },
+      { "title": "一つ前の兄弟要素を取得しよう（.prev()）", "url": "http://goo.gl/Q0ULyn" },
+      { "title": "前の兄弟要素全部を取得しよう（.prevAll()）", "url": "http://goo.gl/3eowOj" },
+      { "title": "（.sblings()）", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
+      { "title": "（.is()）", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
+      { "title": "複数の要素から指定した属性だけを取得しよう（.has()）", "url": "http://goo.gl/jl0eMP" },
+      { "title": "(.each())", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
+      { "title": "n番目の要素を取得してみよう（eq(n)）", "url": "aaaaaaaaaaaaaaaaaaaaaa" }
     ]
   },
   {
     "title": "制御(Manipulation) を使いこなそう",
     "samples": [
-      { "title": "append()メソッドでhtmlを追加してみよう", "url": "http://goo.gl/JUR3yg" },
-      { "title": "prepend()メソッドでhtmlを追加してみよう", "url": "http://goo.gl/ekVgsy" },
+      { "title": "append()メソッドでhtmlを追加してみよう", "url": "http://goo.gl/JUR3yg"},
+      { "title": "prepend()メソッドでhtmlを追加してみよう", "url": "http://goo.gl/ekVgsy"},
       {"title": "wrap(html)メソッドでhtmlを囲んでみよう","url": "http://goo.gl/ZG5ebw"},
       {"title": "wrapAll(html)メソッドでhtmlを囲んでみよう","url": "http://goo.gl/sszOMt"},
       {"title": "clone()でコピーを作成しよう","url": "http://goo.gl/sszOMt"},
       {"title": "要素の中を空っぽにする.empty()","url": "http://goo.gl/daJgTC"},
       {"title": "要素ごと消す！（1）.remove()","url": "http://goo.gl/jj1E7j"},
       {"title": "要素ごと消す！（２）.detach()","url": "http://goo.gl/A17el8"}
-
     ]
   },
 
   {
     "title": "その他",
     "samples": [
+      { "title": "$ って一体なに？", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
+      { "title": "$ って一体なに？", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
+      { "title": "$ って一体なに？", "url": "aaaaaaaaaaaaaaaaaaaaaa" },
       { "title": "$ って一体なに？", "url": "aaaaaaaaaaaaaaaaaaaaaa" }
     ]
   }
