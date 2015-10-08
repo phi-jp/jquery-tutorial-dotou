@@ -312,7 +312,12 @@
             {
                 "title": "n番目の要素を取得してみよう（eq(n)）",
                 "url": "aaaaaaaaaaaaaaaaaaaaaa"
+            },
+            {
+                "title": ".slice(s,e)でs番目からe番目までの要素を指定しよう",
+                "url": "http://goo.gl/KjbImm"
             }
+
         ]
     },
     {
@@ -360,15 +365,27 @@
                 "url": "aaaaaaaaaaaaaaaaaaaaaa"
             },
             {
-                "title": "$ って一体なに？",
+                "title": ".length",
                 "url": "aaaaaaaaaaaaaaaaaaaaaa"
             },
             {
-                "title": "$ って一体なに？",
+                "title": ".get()",
                 "url": "aaaaaaaaaaaaaaaaaaaaaa"
             },
             {
-                "title": "$ って一体なに？",
+                "title": "toArray()",
+                "url": "aaaaaaaaaaaaaaaaaaaaaa"
+            },
+            {
+                "title": ".index()でその要素が何番目かを知ろう",
+                "url": "http://goo.gl/tDgn5i"
+            },
+            {
+                "title": ".get()",
+                "url": "aaaaaaaaaaaaaaaaaaaaaa"
+            },
+            {
+                "title": ".get()",
                 "url": "aaaaaaaaaaaaaaaaaaaaaa"
             }
         ]
