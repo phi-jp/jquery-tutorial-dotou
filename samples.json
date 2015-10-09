@@ -105,8 +105,28 @@
                 "url": "http://goo.gl/hqKGB2"
             },
             {
-                "title": "要素の横幅の取得、縦幅の取得をしてみよう",
-                "url": "http://goo.gl/hqKGB2"
+                "title": ".offset()を使ってスタイルの数字を表示してみよう",
+                "url": "http://goo.gl/w3Ws7l"
+            },
+            {
+                "title": ".innerWidth()を使って内側の幅を習得してみよう",
+                "url": "http://goo.gl/ms9wNZ"
+            },
+            {
+                "title": ".outerWidth()を使って外側の幅を取得してみよう",
+                "url": "http://goo.gl/a4vdsQ"
+            },
+            {
+                "title": ".innerHeight()を使って内側の高さを習得してみよう",
+                "url": "http://goo.gl/meriSo"
+            },
+            {
+                "title": ".outerHeight()を使って外側の高さを取得してみよう",
+                "url": "http://goo.gl/q0LC3I"
+            },
+            {
+                "title": ".offset()を使ってスタイルの数字を表示してみよう",
+                "url": "http://goo.gl/w3Ws7l"
             },
             {
                 "title": "要素の横幅の取得、縦幅の取得をしてみよう",
@@ -365,8 +385,8 @@
                 "url": "aaaaaaaaaaaaaaaaaaaaaa"
             },
             {
-                "title": ".length",
-                "url": "aaaaaaaaaaaaaaaaaaaaaa"
+                "title": "jQueryでの.lengthの使い方、javascriptでの.lengthの使い方をしろう",
+                "url": "http://goo.gl/IqgHUA"
             },
             {
                 "title": ".get()",
