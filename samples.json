@@ -25,10 +25,6 @@
             {
                 "title": "チェーンメソッドを使ってみよう",
                 "url": "http://goo.gl/Fh9Wrk"
-            },
-            {
-                "title": "dummy",
-                "url": "dummy"
             }
         ]
     },
@@ -82,10 +78,6 @@
             {
                 "title": "グループで要素を取得してみよう",
                 "url": "aaaaaaaaaaaaaaaaaaaaaa"
-            },
-            {
-                "title": "dummy",
-                "url": "dummy"
             }
         ]
     },
@@ -118,7 +110,7 @@
             },
             {
                 "title": ".innerHeight()を使って内側の高さを習得してみよう",
-                "url": "http://goo.gl/meriSo"
+                "url": "http://goo.gl/meriSo  "
             },
             {
                 "title": ".outerHeight()を使って外側の高さを取得してみよう",
@@ -271,7 +263,20 @@
             {
                 "title": "attr()をつかってurlを変更しよう",
                 "url": "http://goo.gl/dVqkFe"
+            },
+            {
+                "title": "prop()を使ってチェックボックスにチェックをつけよう",
+                "url": "http://goo.gl/qmMB1p"
+            },
+            {
+                "title": "prop()を使って機能の有効/無効を操作しよう",
+                "url": "http://goo.gl/kLVaqf"
+            },
+            {
+                "title": ".val()を使ってvalueを取得してみよう",
+                "url": "http://goo.gl/HwgyAH"
             }
+
         ]
     },
     {
