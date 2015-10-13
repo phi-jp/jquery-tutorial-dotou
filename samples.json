@@ -24,7 +24,7 @@
             },
             {
                 "title": "チェーンメソッドを使ってみよう",
-                "url": "http://goo.gl/Fh9Wrk"
+                "url": "http://goo.gl/l823YN"
             }
         ]
     },
@@ -33,19 +33,19 @@
         "samples": [
             {
                 "title": "すべての要素を取得してみよう(ユニバーサルセレクタ)",
-                "url": "http://goo.gl/vA0Fqj"
+                "url": "http://goo.gl/AOPFnP"
             },
             {
                 "title": "子孫要素を取得してみよう",
-                "url": "http://goo.gl/CFkaZl"
+                "url": "http://goo.gl/EEJxKh"
             },
             {
                 "title": "直下の要素を取得してみよう(「>」)",
-                "url": "http://goo.gl/NhAKQX"
+                "url": "http://goo.gl/jJyazg"
             },
             {
-                "title": "隣接する要素を取得してみよう",
-                "url": "http://goo.gl/vEuK9b"
+                "title": "隣接する要素を取得してみようc",
+                "url": "http://goo.gl/09wCPH"
             },
             {
                 "title": "属性セレクタで要素を取得してみよう(1)([attribute])",
@@ -394,19 +394,19 @@
                 "url": "http://goo.gl/IqgHUA"
             },
             {
-                "title": ".get()",
-                "url": "aaaaaaaaaaaaaaaaaaaaaa"
+                "title": ".get(n)を使ってn番目の要素を取得しよう",
+                "url": "http://goo.gl/07AZli"
             },
             {
-                "title": "toArray()",
-                "url": "aaaaaaaaaaaaaaaaaaaaaa"
+                "title": "オブジェクトを要素配列に入れよう（１）（.get()）",
+                "url": "http://goo.gl/dgXY7r"
             },
             {
                 "title": ".index()でその要素が何番目かを知ろう",
                 "url": "http://goo.gl/tDgn5i"
             },
             {
-                "title": ".get()",
+                "title": ".toArray",
                 "url": "aaaaaaaaaaaaaaaaaaaaaa"
             },
             {
