@@ -44,7 +44,7 @@
                 "url": "http://goo.gl/jJyazg"
             },
             {
-                "title": "隣接する要素を取得してみようc",
+                "title": "隣接する要素を取得してみよう",
                 "url": "http://goo.gl/09wCPH"
             },
             {
@@ -86,19 +86,19 @@
         "samples": [
             {
                 "title": "文字の色を変更してみよう",
-                "url": "http://goo.gl/1LcZq6"
+                "url": "http://goo.gl/QuiHj7"
             },
             {
                 "title": "要素を非表示にしてみよう",
-                "url": "http://goo.gl/fsmeBF"
+                "url": "http://goo.gl/xISCTN"
             },
             {
                 "title": "要素の横幅の取得、縦幅の取得をしてみよう",
-                "url": "http://goo.gl/hqKGB2"
+                "url": "http://goo.gl/15gdr7"
             },
             {
                 "title": ".offset()を使ってスタイルの数字を表示してみよう",
-                "url": "http://goo.gl/w3Ws7l"
+                "url": "http://goo.gl/sDGqhK"
             },
             {
                 "title": ".innerWidth()を使って内側の幅を習得してみよう",
@@ -110,7 +110,7 @@
             },
             {
                 "title": ".innerHeight()を使って内側の高さを習得してみよう",
-                "url": "http://goo.gl/meriSo  "
+                "url": "http://goo.gl/meriSo"
             },
             {
                 "title": ".outerHeight()を使って外側の高さを取得してみよう",
@@ -121,8 +121,8 @@
                 "url": "http://goo.gl/w3Ws7l"
             },
             {
-                "title": "要素の横幅の取得、縦幅の取得をしてみよう",
-                "url": "http://goo.gl/hqKGB2"
+                "title": "要素の横幅の取得、縦幅の取得をしてみようchecked",
+                "url": "http://goo.gl/HXN389"
             }
         ]
     },
