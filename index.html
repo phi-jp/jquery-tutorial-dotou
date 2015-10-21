@@ -16,7 +16,9 @@
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jade/1.3.1/jade.min.js"></script>
 
-    <script src="http://rawgit.com/phi-jp/riot/build/dist/riot/riot+compiler.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.4.2/js-yaml.min.js'></script> 
+
+    <script src="http://rawgit.com/phi-jp/riot/feature/supported_jade_build/dist/riot/riot+compiler.js"></script>
   </head>
   <body>
     <app></app>
@@ -59,8 +61,8 @@
 
     script.
       var self = this;
-      $.getJSON('samples.json').done(function(data) {
-        self.list = data;
+      $.get('samples.yaml').done(function(data) {
+        self.list = jsyaml.load(data);
         self.update();
       });
 </script>
