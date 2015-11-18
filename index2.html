@@ -1,0 +1,97 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <title>jQuery</title>
+
+    <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.css' />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.js'></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jade/1.3.1/jade.min.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.4.2/js-yaml.min.js'></script> 
+
+    <script src="http://rawgit.com/phi-jp/riot/feature/supported_jade_build/dist/riot/riot+compiler.js"></script>
+  </head>
+  <body>
+    <app></app>
+  </body>
+</html>
+
+
+<script type='riot/tag' template='jade'>
+  app
+    div.row
+      div.col.s4
+        side
+      div.col.s8
+        preview
+    script(type='text/javascript').
+      this.change = function(e) {
+        console.log(e.target.checked)
+      };
+</script>
+
+<script type='riot/tag' template='jade'>
+  side
+    h2 side
+    ul
+      li(each='{list}')
+        span {label}
+        ol.samples
+          li(each='{items}')
+            a(href='{url}', target='preview', onclick='{open}') {label}
+    style.
+      side {
+        display: block;
+        overflow: auto;
+        height: 100vh;
+      }
+      ol.samples li {
+        list-style-type: decimal;
+      }
+
+    script.
+      var self = this;
+      $.get('build.yaml').done(function(data) {
+        self.list = jsyaml.load(data);
+        self.update();
+      });
+
+      this.open = function(e) {
+        $('#preview').attr('src', '');
+        setTimeout(function() {
+          $('#preview').attr('src', e.item.url);
+        }, 10);
+      };
+</script>
+
+<script type='riot/tag' template='jade'>
+  preview
+    h2 preview
+    div
+      iframe#preview(name='preview')
+
+    style.
+      #preview {
+        border: none;
+        box-shadow: 0px 0px 4px #aaa;
+        width: 100%;
+        height: 800px;
+      }
+</script>
+
+<script>
+  riot.mount('*', {
+  })
+</script>
+
+
+

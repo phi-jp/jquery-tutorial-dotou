@@ -42,9 +42,12 @@ var decode = function(str) {
 
 var file2url = function(filename) {
   var data = fs.readFileSync(filename, 'utf-8');
-
   return encode(data);
-
+};
+var file2title = function(filename) {
+  var data = fs.readFileSync(filename, 'utf-8');
+  var json = JSON.parse(data);
+  return json.setting.title;
 };
 
 var build = function() {
@@ -53,19 +56,25 @@ var build = function() {
   var dirs = fs.readdirSync(root);
 
   dirs.forEach(function(dir) {
+    var p = path.join(root, dir);
+    if (!fs.lstatSync(p).isDirectory()) {
+      return ;
+    }
     var section = {
       label: dir,
       items: [],
     };
-    var p = path.join(root, dir);
     var files = fs.readdirSync(p);
 
     files.forEach(function(file) {
+      if (file[0] === '.') return ;
+
       var item = {
         label: file,
         url: 'http://runstant.com',
       };
       var filename = path.join(p, file);
+      item.label = file2title(filename);
       item.url = 'http://runstant.com/?v=0.0.3#' + file2url(filename);
       section.items.push(item);
     });
