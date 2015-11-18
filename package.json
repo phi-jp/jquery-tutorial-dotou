@@ -10,7 +10,8 @@
     "gulp": "^3.9.0",
     "gulp-util": "^3.0.3",
     "gulp-webserver": "^0.9.1",
-    "ip": "^0.3.3"
+    "ip": "^0.3.3",
+    "pako": "^0.2.8"
   },
   "scripts": {
     "start": "node src/index.js"
