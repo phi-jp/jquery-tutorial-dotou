@@ -2,7 +2,7 @@ var request = require('request');
 var fs = require('fs');
 var path = require('path');
 var pako = require('pako');
-var yaml = require('js-yaml');
+var YAML = require('json2yaml');
 
 function atob(str) {
   return new Buffer(str, 'base64').toString('binary');
@@ -73,7 +73,9 @@ var build = function() {
     data.push(section);
   });
 
-  console.log(JSON.stringify(data, null, 2));
+  // console.log(JSON.stringify(data, null, 2));
+  var yaml = YAML.stringify(data);
+  fs.writeFile('build.yaml', yaml);
 };
 
 
