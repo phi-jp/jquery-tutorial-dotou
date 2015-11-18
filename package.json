@@ -14,5 +14,8 @@
   },
   "scripts": {
     "start": "node src/index.js"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
   }
 }
