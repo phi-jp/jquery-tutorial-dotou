@@ -47,7 +47,7 @@
         span {title}
         ol.samples
           li(each='{samples}')
-            a(href='{url}', target='preview') {title}
+            a(href='{url}', target='preview', onclick='{open}') {title}
 
     style.
       side {
@@ -65,6 +65,11 @@
         self.list = jsyaml.load(data);
         self.update();
       });
+
+      this.open = function(e) {
+        $('#preview').attr('src', e.item.url);
+        $('#preview').contentDocument.location.reload(true);
+      };
 </script>
 
 <script type='riot/tag' template='jade'>
